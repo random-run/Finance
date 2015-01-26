@@ -6,6 +6,7 @@
 //      a. Members
 //      b. Stocks being discussed
 //      c. Last message
+//      d. Last update time
 //  2. Floating start conversation button
 //
 //  Created by diwakar punjani on 1/25/15.

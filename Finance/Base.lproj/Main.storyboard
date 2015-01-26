@@ -38,7 +38,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="Feed" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +78,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Portfolio" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="Portfolio" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -105,7 +105,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Conversations" id="Po1-KA-vJa"/>
+                    <tabBarItem key="tabBarItem" title="Conversations" image="Convo" id="Po1-KA-vJa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Upc-s2-shE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,7 +124,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Friends" id="gZY-dZ-hRa"/>
+                    <tabBarItem key="tabBarItem" title="Friends" image="Friends" id="gZY-dZ-hRa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vew-38-K2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -152,4 +152,10 @@
             <point key="canvasLocation" x="-1528" y="-1672"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Convo" width="32" height="23"/>
+        <image name="Feed" width="32" height="32"/>
+        <image name="Friends" width="32" height="32"/>
+        <image name="Portfolio" width="32" height="32"/>
+    </resources>
 </document>

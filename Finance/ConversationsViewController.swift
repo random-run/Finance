@@ -2,6 +2,12 @@
 //  ConversationsViewController.swift
 //  Finance
 //
+//  1. Conversation list
+//      a. Members
+//      b. Stocks being discussed
+//      c. Last message
+//  2. Floating start conversation button
+//
 //  Created by diwakar punjani on 1/25/15.
 //  Copyright (c) 2015 diwakar punjani. All rights reserved.
 //

@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BE1CD3EE1A7596AB00E654B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD3ED1A7596AB00E654B0 /* AppDelegate.swift */; };
-		BE1CD3F01A7596AB00E654B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD3EF1A7596AB00E654B0 /* FirstViewController.swift */; };
-		BE1CD3F21A7596AB00E654B0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD3F11A7596AB00E654B0 /* SecondViewController.swift */; };
 		BE1CD3F51A7596AB00E654B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1CD3F31A7596AB00E654B0 /* Main.storyboard */; };
 		BE1CD3F71A7596AB00E654B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1CD3F61A7596AB00E654B0 /* Images.xcassets */; };
 		BE1CD3FA1A7596AB00E654B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1CD3F81A7596AB00E654B0 /* LaunchScreen.xib */; };
 		BE1CD4061A7596AB00E654B0 /* FinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD4051A7596AB00E654B0 /* FinanceTests.swift */; };
+		BEF28F1A1A75D4D000784E47 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF28F191A75D4D000784E47 /* FeedViewController.swift */; };
+		BEF28F1C1A75D50C00784E47 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF28F1B1A75D50C00784E47 /* PortfolioViewController.swift */; };
+		BEF28F1E1A75D53A00784E47 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF28F1D1A75D53A00784E47 /* ConversationsViewController.swift */; };
+		BEF28F201A75D57500784E47 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF28F1F1A75D57500784E47 /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +32,16 @@
 		BE1CD3E81A7596AB00E654B0 /* Finance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1CD3EC1A7596AB00E654B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1CD3ED1A7596AB00E654B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE1CD3EF1A7596AB00E654B0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BE1CD3F11A7596AB00E654B0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		BE1CD3F41A7596AB00E654B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE1CD3F61A7596AB00E654B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE1CD3F91A7596AB00E654B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE1CD3FF1A7596AB00E654B0 /* FinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1CD4041A7596AB00E654B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE1CD4051A7596AB00E654B0 /* FinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceTests.swift; sourceTree = "<group>"; };
+		BEF28F191A75D4D000784E47 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BEF28F1B1A75D50C00784E47 /* PortfolioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
+		BEF28F1D1A75D53A00784E47 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		BEF28F1F1A75D57500784E47 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				BE1CD3ED1A7596AB00E654B0 /* AppDelegate.swift */,
-				BE1CD3EF1A7596AB00E654B0 /* FirstViewController.swift */,
-				BE1CD3F11A7596AB00E654B0 /* SecondViewController.swift */,
 				BE1CD3F31A7596AB00E654B0 /* Main.storyboard */,
 				BE1CD3F61A7596AB00E654B0 /* Images.xcassets */,
 				BE1CD3F81A7596AB00E654B0 /* LaunchScreen.xib */,
 				BE1CD3EB1A7596AB00E654B0 /* Supporting Files */,
+				BEF28F191A75D4D000784E47 /* FeedViewController.swift */,
+				BEF28F1B1A75D50C00784E47 /* PortfolioViewController.swift */,
+				BEF28F1D1A75D53A00784E47 /* ConversationsViewController.swift */,
+				BEF28F1F1A75D57500784E47 /* FriendsViewController.swift */,
 			);
 			path = Finance;
 			sourceTree = "<group>";
@@ -216,9 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1CD3F21A7596AB00E654B0 /* SecondViewController.swift in Sources */,
+				BEF28F1C1A75D50C00784E47 /* PortfolioViewController.swift in Sources */,
 				BE1CD3EE1A7596AB00E654B0 /* AppDelegate.swift in Sources */,
-				BE1CD3F01A7596AB00E654B0 /* FirstViewController.swift in Sources */,
+				BEF28F1E1A75D53A00784E47 /* ConversationsViewController.swift in Sources */,
+				BEF28F201A75D57500784E47 /* FriendsViewController.swift in Sources */,
+				BEF28F1A1A75D4D000784E47 /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				BE1CD40B1A7596AB00E654B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE1CD40C1A7596AB00E654B0 /* Build configuration list for PBXNativeTarget "FinanceTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				BE1CD40E1A7596AB00E654B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
